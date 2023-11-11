@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #1d1160;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 1rem;
+    background-color: #D396FF;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .heading {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+  }
+  
+  
+  .top {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  input {
+    border: none;
+    outline: none;
+    width: 400px;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .add {
+    background-color: #5A4FCF;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .todo {
+    position: relative;
+    margin-top: 1rem;
+    background-color: white;
+    color: #D396FF;
+    padding: 1.5rem 3rem;
+    border-radius: 5px;
+  }
+  
+  .icons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .icon {
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .list{
+    margin-bottom: 1rem;
+  }
