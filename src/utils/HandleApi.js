@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = "http://127.0.0.1:5000"
+const baseUrl = "http://16.16.63.43"
 
 const getAllToDo = (setToDo) => {
     axios
